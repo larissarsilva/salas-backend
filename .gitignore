@@ -1,0 +1,19 @@
+db.sqlite3
+anota.txt
+.DS_Store
+mediafiles/
+*.pyc
+__pycache__/
+
+#vscode
+.vscode/
+
+# pycharm
+.idea
+
+# General
+/venv/
+/env/
+/output/
+/cache/
+/build
