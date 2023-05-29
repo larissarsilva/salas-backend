@@ -9,6 +9,7 @@ router.register(r'subjects', SubjectViewSet )
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('rooms', include('rooms.urls')),
     path('courses', include('courses.urls')),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls'))
