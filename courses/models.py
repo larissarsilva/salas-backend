@@ -14,7 +14,8 @@ class Course(models.Model):
     ]
     shift = models.IntegerField (
         choices = SHIFT_CHOICES,
-        default = MORNING
+        default = MORNING,
+        verbose_name = 'Turno'
     )
     subjectsIds = models.ManyToManyField('Subject', related_name = 'coursesId', blank = True, null = True, verbose_name = 'Disciplinas') # Related name permite que eu acesse cursos a partir de matérias
 
