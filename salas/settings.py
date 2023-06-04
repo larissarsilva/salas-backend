@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     # Mine
     'courses',
     'professors',
-    'rooms'
+    'rooms',
+    'users'
 ]
 
 MIDDLEWARE = [
