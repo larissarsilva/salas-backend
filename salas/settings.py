@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     # Mine
+    'classes',
     'courses',
     'professors',
     'rooms',
